@@ -1,2 +1,4 @@
 com\veroneze\program\EstoqueEPIs.class
+entities\ProductDAO.class
+entities\JPAPersistenceUseful.class
 entities\Product.class
