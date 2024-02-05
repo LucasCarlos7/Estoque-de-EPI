@@ -8,26 +8,28 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Product {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
-    
-    @Column(name="number_size")
+
+    @Column(name = "number_size")
     private String numberSize;
     private Integer amount;
     private String detail;
+    private ProductType productType;
 
     public Product() {
     }
 
-    public Product(Integer id, String name, String numberSize, Integer amount, String detail) {
+    public Product(Integer id, String name, String numberSize, Integer amount, String detail, ProductType productType) {
         this.id = id;
         this.name = name;
         this.numberSize = numberSize;
         this.amount = amount;
         this.detail = detail;
+        this.productType = productType;
     }
 
     public Integer getId() {
