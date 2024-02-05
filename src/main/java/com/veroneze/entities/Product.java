@@ -1,4 +1,4 @@
-package entities;
+package com.veroneze.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

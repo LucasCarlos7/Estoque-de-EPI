@@ -1,5 +1,7 @@
-package entities;
+package com.veroneze.dao;
 
+import com.veroneze.entities.Product;
+import com.veroneze.jpa.JPAPersistenceUseful;
 import jakarta.persistence.EntityManager;
 
 public class ProductDAO {

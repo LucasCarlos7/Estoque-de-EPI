@@ -1,4 +1,4 @@
-package entities;
+package com.veroneze.jpa;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;

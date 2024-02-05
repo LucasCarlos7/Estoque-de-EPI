@@ -1,4 +1,10 @@
+com\veroneze\dao\ProductDAO.class
+com\veroneze\gui\CreateProduct$2.class
+com\veroneze\gui\CreateProduct.class
+com\veroneze\gui\CreateProduct$1.class
+com\veroneze\gui\Operation.class
+com\veroneze\jpa\JPAPersistenceUseful.class
+com\veroneze\entities\Product.class
 com\veroneze\program\EstoqueEPIs.class
-entities\ProductDAO.class
-entities\JPAPersistenceUseful.class
-entities\Product.class
+com\veroneze\gui\Operation$1.class
+com\veroneze\gui\Operation$2.class
